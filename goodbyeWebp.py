@@ -2,7 +2,7 @@ from PIL import Image, ImageSequence
 import os
 from os import listdir
 from os.path import isfile, join
-mypath = "E:\\usb fr fr\\idk\\OG\\uma"
+mypath = "path"
 onlyfiles = [f for f in listdir(mypath) if isfile(join(mypath, f))]
 loop = 0
 name = "twinturbo"
