@@ -3,9 +3,9 @@ import os
 from os import listdir
 from os.path import isfile, join
 
-mypath = "E:\\usb fr fr\\idk\\OG"
-name = "ganyu"
-ogName = "e1d0ce983094726dee5e733a0d75e662f08d20ac779d5bb27f1976d50410b521" + ".webp"
+mypath = "path"
+name = "name"
+ogName = "name" + ".webp"
 onlyfiles = [f for f in listdir(mypath) if isfile(join(mypath, f))]
 loop = 0
 
