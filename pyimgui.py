@@ -26,8 +26,6 @@ app = Dash(__name__)
 
 pagenum = 0
 
-#imgfile ="E:\\usb fr fr\\idk\\OG\\BA\\nah.jpg"
-
 defimg = []
 for imgfile in arr:
 	with open(imgfile, "rb") as image_file:
